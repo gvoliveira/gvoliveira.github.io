@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body{ 
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(243, 243, 243);
+    font-family: sans-serif;
+    background-image: url(imgs/funky-lines.png);
+    
+}
+
+.conteudo{ 
+    font-family: Montserrat;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    background-image: url(https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+    background-size: contain;
+    text-align: center;
+}
+
+footer{ 
+    font-family: Montserrat;
+    text-align: center;
+    margin: auto;
+}
