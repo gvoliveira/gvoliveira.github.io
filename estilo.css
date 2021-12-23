@@ -1,29 +1,177 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
 
-body{ 
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(243, 243, 243);
-    font-family: sans-serif;
-    background-image: url(imgs/funky-lines.png);
-    
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(243, 243, 243);
+  font-family: sans-serif;
+  background-image: url(img/funky-lines.png);
 }
 
-.conteudo{ 
-    font-family: Montserrat;
+.conteudo {
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 80%;
+  background-color: rgb(253, 253, 253);
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  border-top: 3px rgb(50, 0, 107) solid;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-principal-avatar {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 2em;
+}
+
+.conteudo-texto-profissao {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: rgb(50, 0, 107);
+}
+
+.social {
+  margin: 15px;
+}
+
+.social-media {
+  margin-right: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media ul {
+  padding-inline-start: 0px;
+  margin-block-start: 0em;
+}
+
+.item-social img {
+  width: 40px;
+}
+
+.conteudo-descricao {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+.conteudo-descricao p {
+  margin: 1.7em;
+}
+
+.lista-prof {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-inline-start: 0px;
+}
+.conteudo-cards {
+  text-align: left;
+  margin: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 20px;
+}
+.card-detalhe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 3px rgb(50, 0, 107) solid;
+}
+
+.card-detalhe img {
+  width: 150px; /* width of container */
+  height: 200px; /* height of container */
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-detalhe button {
+  margin: 10px;
+  background-color: rgb(50, 0, 107);
+  color: rgb(243, 243, 243);
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-detalhe button:hover {
+  background-color: rgb(236, 128, 4);
+  transition-duration: 0.5s;
+}
+
+.formulario-secao {
+  background: rgb(50, 0, 107);
+  background: linear-gradient(31deg, rgba(50,0,107,1) 0%, rgba(94,20,178,1) 100%, rgba(0,212,255,1) 100%);
+  color:rgb(243, 243, 243); 
+  padding: 1.5em; 
+  text-align:left;
+  
+}
+input, textarea {
+    font-family: inherit;
+    font-size: 100%;
+}
+
+.formulario-campos input{
+  width: 80%;
+  border-radius: 6px;
+  border: none;
+  height: 50px;
+}
+
+.formulario-campos textarea{
     width: 80%;
-    height: 500px;
-    background-color: white;
-    padding: 5px;
-    margin: auto;
-    margin-top: 10px;
-    background-image: url(https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
-    background-size: contain;
-    text-align: center;
+    height: 200px;
+    border-radius: 6px;
+    border: none;  
 }
 
-footer{ 
-    font-family: Montserrat;
+.envio{
+    padding: 1em;
+    font-size: 1.5em;
     text-align: center;
-    margin: auto;
+    border: none;
+    border-radius: 6px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50, 0, 107);
+}
+
+a:hover {
+  text-decoration: bold;
+  color: rgb(236, 128, 4);
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(50, 0, 107);
+  margin: 0px;
+  text-align: left;
+  margin: 1.5em;
+}
+
+footer {
+  font-family: Montserrat;
+  text-align: center;
+  margin: auto;
 }
