@@ -221,6 +221,22 @@ footer {
   margin: 0.3em;
 }
 
+@media (max-width: 875px){
+
+.minigame {
+  width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  
+  }
+.lista-mobile iframe{
+  width: 100%;
+}
+
+
+}
+
 
 
 
