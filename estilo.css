@@ -4,7 +4,7 @@
 :root {
 
     --roxo-titulos: rgb(82, 3, 172);
-
+    --gradiente1: linear-gradient(139deg, rgba(83,19,173,1) 0%, rgba(200,34,255,1) 100%, rgba(200,34,255,1) 200%, rgba(2,0,36,1) 255%);
 }
 
 body {
@@ -24,6 +24,7 @@ body {
   margin-top: 15px;
   text-align: center;
   border-top: 3px var(--roxo-titulos) solid;
+  border-bottom: 3px var(--roxo-titulos) solid;
   display: flex;
   flex-direction: column;
   box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
@@ -39,6 +40,7 @@ body {
   width: 150px;
   border-radius: 50%;
   margin-top: 2em;
+  
 }
 
 .conteudo-texto-profissao {
@@ -219,6 +221,11 @@ footer {
   font-weight: 800;
   cursor: pointer;
   margin: 0.3em;
+}
+
+.loadimg img{
+  align-items: center;
+  height: 30px;
 }
 
 @media (max-width: 875px){
