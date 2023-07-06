@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;700&display=swap");
+:root {
+  --purple-50: #f5f2ff;
+  --purple-100: #ede6ff;
+  --purple-200: #ddd1ff;
+  --purple-300: #c4acff;
+  --purple-400: #a87dff;
+  --purple-500: #8f49ff;
+  --purple-600: #8324ff;
+  --purple-700: #7512ef;
+  --purple-800: #5e0ec0;
+  --purple-900: #520ea4;
+  --purple-950: #31066f;
+  --fonte-principal: "Poppins";
+  --fonte-console: "Inconsolata";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quem-sou {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.imagem-perfil {
+  width: 167px;
+  border-radius: 90px;
+}
+
+.principal-titulo {
+  font-family: var(--fonte-principal);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+.principal-profissao {
+  font-family: var(--fonte-principal);
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.sociais-lista {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.hello {
+  font-family: var(--fonte-console);
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.descricao {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  width: 80vw;
+  font-family: var(--fonte-principal);
+  font-weight: 300;
+}
+
+.rodape {
+
+  background-color: #2c2c2c;
+  color: #dbdbdb;
+  text-align: center;
+  font-family: var(--fonte-console);
+  font-size: 12px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 2em 0;
+  -webkit-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.26);
+}
+
+.forca-msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.rodape-img-jedi {
+  width: 32px;
+}
+
+.rodape-mapa-lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.rodape-mapa-lista {
+  list-style: none;
+}
+
+@media (min-width: 1280px){
+    .descricao{
+        width: 1000px;
+        
+    }
+}
+
+@media (max-height: 667px){
+    .rodape{
+        position: static;
+        margin-top: 3em;
+    }
+}
+
+
