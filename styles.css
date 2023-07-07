@@ -13,6 +13,7 @@
   --purple-900: #520ea4;
   --purple-950: #31066f;
   --branco: #f0f0f0;
+  --dark: #232c35;
   --fonte-principal: "Poppins";
   --fonte-console: "Inconsolata";
 }
@@ -25,6 +26,17 @@
 body {
   height: 100vh;
   background: var(--branco);
+  transform: background 0.2s linear;
+  transition: 1s;
+}
+
+body.dark{
+  background: var(--dark);
+  color: var(--branco);
+}
+.dark .descricao-texto-destaque{
+  color: var(--branco);
+  transition: 1s;
 }
 
 .principal {
@@ -44,6 +56,10 @@ body {
 .imagem-perfil {
   width: 167px;
   border-radius: 90px;
+}
+
+.principal-nome{
+  text-align: center;
 }
 
 .principal-titulo {
@@ -98,8 +114,7 @@ body {
 }
 
 .rodape {
-
-  background-color: #2c2c2c;
+  background-color: var(--dark);
   color: #dbdbdb;
   text-align: center;
   font-family: var(--fonte-console);
@@ -117,6 +132,18 @@ body {
   box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.26);
 }
 
+
+
+.dark .rodape{
+  color: var(--dark);
+  background-color: var(--branco);
+  transition: 1s;
+}
+
+.dark .rodape-mapa-item a{
+  color: var(--dark);
+}
+
 .forca-msg {
   display: flex;
   align-items: center;
@@ -125,7 +152,15 @@ body {
 }
 
 .rodape-img-jedi {
-  width: 32px;
+  width: 24px;
+}
+
+.fa-jedi{
+  color: var(--branco);
+}
+
+.dark .fa-jedi{
+  color: var(--dark);
 }
 
 .rodape-mapa-lista {
@@ -148,11 +183,18 @@ body {
   color: var(--purple-400);
 }
 
+
+@media (min-width: 900px){
+  .principal-titulo {
+    margin-top: 1.5em;
+  }
+}
+
 @media (min-width: 1280px){
     .descricao{
         width: 1000px;
-        
     }
+   
 }
 
 @media (max-height: 667px){

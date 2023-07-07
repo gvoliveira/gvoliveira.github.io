@@ -1,78 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gvoliveira</title>
-    <link rel="shortcut icon" href="./assets/avatar.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="flip.css">
-</head>
-<body>
-
+    <meta
+      name="description"
+      content="Página pessoal do professor Gilberto Viana de Oliveira com materiais e links de interesse"
+    />
+    <meta
+      name="keywords"
+      content="gilberto oliveira, programação, desenvolvimento de sistemas"
+    />
+    <link rel="shortcut icon" href="./assets/avatar.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tema.css" />
+    <link rel="stylesheet" href="flip.css" />
+  </head>
+  <body>
+    <div class="header">
+      <input type="checkbox" class="checkbox" id="checktema" />
+      <label for="checktema" class="rotulo">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+        <div class="ball"></div>
+      </label>
+    </div>
     <main class="principal">
-        <div class="flip-box">
-          
-          <div class="quem-sou flip-box-inner">
-            <img
-              src="./assets/avatar.png"
-              alt="avatar Gilberto"
-              class="imagem-perfil flip-box-front"
-            />
-            <img
-              src="./assets/gilberto.png"
-              alt="avatar Gilberto"
-              class="imagem-perfil flip-box-back"
-            />
-          </div>
-  
+      <div class="flip-box">
+        <div class="quem-sou flip-box-inner">
+          <img
+            src="./assets/avatar.png"
+            alt="avatar Gilberto"
+            class="imagem-perfil flip-box-front"
+          />
+          <img
+            src="./assets/gilberto.png"
+            alt="foto Gilberto"
+            class="imagem-perfil flip-box-back"
+          />
         </div>
-        
-        <div class="principal-nome">
-          <h1 class="principal-titulo">Gilberto V Oliveira</h1>
-          <p class="principal-profissao">Professor do Ensino Básico, Técnico e Tecnológico</p>
-        </div>
-        <div class="sociais">
-          <ul class="sociais-lista">
-              <li class="sociais-item">
-                  <a href="https://www.linkedin.com/in/gilbertovoliveira/" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/linkedin.png" alt="ícone linkedin">
-                  </a>
-              </li>
-              <li class="sociais-item">
-                  <a href="https://www.instagram.com/gilbertovoliveira/" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/ig.png" alt="ícone instagram pessoal">
-                  </a>
-              </li>
-              <li class="sociais-item">
-                  <a href="https://github.com/gvoliveira" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/github.png" alt="ícone github">
-                  </a>
-              </li>
-              <li class="sociais-item">
-                  <a href="http://lattes.cnpq.br/7059390537752738" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/lattes.png" alt="ícone cnpq lattes">
-                  </a>
-              </li>
-          </ul>
+      </div>
+
+      <div class="principal-nome">
+        <h1 class="principal-titulo">Gilberto V Oliveira</h1>
+        <p class="principal-profissao">
+          Professor do Ensino Básico, Técnico e Tecnológico
+        </p>
+      </div>
+      <div class="sociais">
+        <ul class="sociais-lista">
+          <li class="sociais-item linkedin">
+            <a
+              href="https://www.linkedin.com/in/gilbertovoliveira/"
+              class="sociais-item-link"
+              target="_blank"
+              ><img
+                class="sociais-item-img"
+                src="./assets/socials/linkedin.png"
+                alt="ícone linkedin"
+              />
+            </a>
+          </li>
+          <li class="sociais-item">
+            <a
+              href="https://www.instagram.com/gilbertovoliveira/"
+              class="sociais-item-link"
+              target="_blank"
+              ><img
+                class="sociais-item-img"
+                src="./assets/socials/ig.png"
+                alt="ícone instagram pessoal"
+              />
+            </a>
+          </li>
+          <li class="sociais-item">
+            <a
+              href="https://github.com/gvoliveira"
+              class="sociais-item-link"
+              target="_blank"
+              ><img
+                class="sociais-item-img"
+                src="./assets/socials/github.png"
+                alt="ícone github"
+              />
+            </a>
+          </li>
+          <li class="sociais-item">
+            <a
+              href="http://lattes.cnpq.br/7059390537752738"
+              class="sociais-item-link"
+              target="_blank"
+              ><img
+                class="sociais-item-img"
+                src="./assets/socials/lattes.png"
+                alt="ícone cnpq lattes"
+              />
+            </a>
+          </li>
+        </ul>
       </div>
       <section class="descricao">
-        <p class="descricao-texto">Primeiro, sente-se e pegue seu café ☕!
-        </p><br>
+        <p class="descricao-texto">Primeiro, sente-se e pegue seu café ☕!</p>
+        <br />
         <p class="descricao-texto">
-            Se caiu por aqui, me chamo <strong class="descricao-texto-destaque">Gilberto</strong>, sou um amante de tecnologia, jogos, café e da minha esposa! Atualmente trabalho como professor em um IFTM, atuando nos cursos de Técnico em Informática e de Análise e Desenvolvimento de Sistemas.
+          Se caiu por aqui, me chamo
+          <strong class="descricao-texto-destaque">Gilberto</strong>, sou um
+          amante de tecnologia, jogos, café e da minha esposa! Atualmente
+          trabalho como professor em um IFTM, atuando nos cursos de Técnico em
+          Informática e de Análise e Desenvolvimento de Sistemas.
         </p>
-    </section>
-      </main>
-      <footer class="rodape">
-        <div class="forca-msg">
-           <img class="rodape-img-jedi" src="./assets/footer/jedi-w.png" alt=""> <h2 class="force">Que a força esteja com você!</h2>
-        </div>
-           <div class="rodape-mapa">
-            <p class="rodape-titulo"><strong>Recomendações</strong></p><br>
-            <ul class="rodape-mapa-lista">
-                <li class="rodape-mapa-item"><a href="https://open.spotify.com/playlist/4wVPOIw1D3ctRF3PvN0740?si=553c433e0fff4f21">Spotify</a></li>
-                <li class="rodape-mapa-item"><a href="https://github.com/gvoliveira/recomendacoes">Materiais e Ferramentas para Estudo</a></li>
-                <li class="rodape-mapa-item"><a href="https://steamcommunity.com/id/lawfulgud/">Steam</a></li>
-            </ul>
-           </div>
-        </footer>
-    
-</body>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="forca-msg">
+        <i class="fa-solid fa-jedi fa-xl"></i>
+        <h2 class="force">Que a força esteja com você!</h2>
+      </div>
+      <div class="rodape-mapa">
+        <p class="rodape-titulo"><strong>Recomendações</strong></p>
+        <br />
+        <ul class="rodape-mapa-lista">
+          <li class="rodape-mapa-item">
+            <a
+              href="https://open.spotify.com/playlist/4wVPOIw1D3ctRF3PvN0740?si=553c433e0fff4f21"
+              target="_blank"
+              >Spotify</a
+            >
+          </li>
+          <li class="rodape-mapa-item">
+            <a
+              href="https://github.com/gvoliveira/recomendacoes"
+              target="_blank"
+              >Materiais e Ferramentas para Estudos</a
+            >
+          </li>
+          <li class="rodape-mapa-item">
+            <a href="https://steamcommunity.com/id/lawfulgud/" target="_blank"
+              >Steam</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/6da157026d.js"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
