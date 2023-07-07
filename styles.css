@@ -24,7 +24,6 @@
 }
 
 body {
-  height: 100vh;
   background: var(--branco);
   transform: background 0.2s linear;
   transition: 1s;
@@ -193,6 +192,10 @@ body.dark{
 @media (min-width: 1280px){
     .descricao{
         width: 1000px;
+    }
+    body{
+      margin: 0 auto;
+      text-align: center;
     }
    
 }
