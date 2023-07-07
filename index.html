@@ -6,64 +6,74 @@
     <title>gvoliveira</title>
     <link rel="shortcut icon" href="./assets/avatar.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flip.css">
 </head>
 <body>
 
     <main class="principal">
-
-        <div class="quem-sou">
-            <img src="./assets/avatar.png" alt="avatar Gilberto" class="imagem-perfil">
-            <h1 class="principal-titulo">Gilberto V Oliveira</h1>
-            <p class="principal-profissao">Professor do Ensino Básico, Técnico e Tecnológico</p>
-        </div>
-       
-        <div class="sociais">
-            <ul class="sociais-lista">
-                <li class="sociais-item">
-                    <a href="https://www.linkedin.com/in/gilbertovoliveira/" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/linkedin.svg" alt="ícone linkedin">
-                    </a>
-                </li>
-                <li class="sociais-item">
-                    <a href="https://www.instagram.com/gilbertovoliveira/" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/ig.svg" alt="ícone instagram pessoal">
-                    </a>
-                </li>
-                <li class="sociais-item">
-                    <a href="https://github.com/gvoliveira" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/github.svg" alt="ícone github">
-                    </a>
-                </li>
-                <li class="sociais-item">
-                    <a href="http://lattes.cnpq.br/7059390537752738" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/lattes.svg" alt="ícone cnpq lattes">
-                    </a>
-                </li>
-            </ul>
-
+        <div class="flip-box">
+          
+          <div class="quem-sou flip-box-inner">
+            <img
+              src="./assets/avatar.png"
+              alt="avatar Gilberto"
+              class="imagem-perfil flip-box-front"
+            />
+            <img
+              src="./assets/gilberto.png"
+              alt="avatar Gilberto"
+              class="imagem-perfil flip-box-back"
+            />
+          </div>
+  
         </div>
         
-        <section class="descricao">
-            <p class="descricao-texto">Primeiro, sente-se e pegue seu café ☕!
-            </p><br>
-            <p class="descricao-texto">
-                Se caiu por aqui, me chamo <strong>Gilberto</strong>, sou um amante de tecnologia, jogos, café e da minha esposa! Atualmente trabalho como professor em um IFTM, atuando nos cursos de Técnico em Informática e de Análise e Desenvolvimento de Sistemas.
-            </p>
-        </section>
-    </main>
-
-   
-
-    <footer class="rodape">
-    <div class="forca-msg">
-       <img class="rodape-img-jedi" src="./assets/footer/jedi-w.png" alt=""> <h2 class="force">Que a força esteja com você!</h2>
-    </div>
-       <div class="rodape-mapa">
-        <p class="rodape-titulo"><strong>Recomendações</strong></p><br>
-        <ul class="rodape-mapa-lista">
-            <li class="rodape-mapa-item">Spotify</li>
-            <li class="rodape-mapa-item">Livros</li>
-            <li class="rodape-mapa-item">Jogos</li>
-            <li class="rodape-mapa-item">Jogos</li>
-        </ul>
-       </div>
-    </footer>
+        <div class="principal-nome">
+          <h1 class="principal-titulo">Gilberto V Oliveira</h1>
+          <p class="principal-profissao">Professor do Ensino Básico, Técnico e Tecnológico</p>
+        </div>
+        <div class="sociais">
+          <ul class="sociais-lista">
+              <li class="sociais-item">
+                  <a href="https://www.linkedin.com/in/gilbertovoliveira/" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/linkedin.png" alt="ícone linkedin">
+                  </a>
+              </li>
+              <li class="sociais-item">
+                  <a href="https://www.instagram.com/gilbertovoliveira/" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/ig.png" alt="ícone instagram pessoal">
+                  </a>
+              </li>
+              <li class="sociais-item">
+                  <a href="https://github.com/gvoliveira" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/github.png" alt="ícone github">
+                  </a>
+              </li>
+              <li class="sociais-item">
+                  <a href="http://lattes.cnpq.br/7059390537752738" class="sociais-item-link" target="_blank"><img class="sociais-item-img" src="./assets/socials/lattes.png" alt="ícone cnpq lattes">
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <section class="descricao">
+        <p class="descricao-texto">Primeiro, sente-se e pegue seu café ☕!
+        </p><br>
+        <p class="descricao-texto">
+            Se caiu por aqui, me chamo <strong class="descricao-texto-destaque">Gilberto</strong>, sou um amante de tecnologia, jogos, café e da minha esposa! Atualmente trabalho como professor em um IFTM, atuando nos cursos de Técnico em Informática e de Análise e Desenvolvimento de Sistemas.
+        </p>
+    </section>
+      </main>
+      <footer class="rodape">
+        <div class="forca-msg">
+           <img class="rodape-img-jedi" src="./assets/footer/jedi-w.png" alt=""> <h2 class="force">Que a força esteja com você!</h2>
+        </div>
+           <div class="rodape-mapa">
+            <p class="rodape-titulo"><strong>Recomendações</strong></p><br>
+            <ul class="rodape-mapa-lista">
+                <li class="rodape-mapa-item"><a href="https://open.spotify.com/playlist/4wVPOIw1D3ctRF3PvN0740?si=553c433e0fff4f21">Spotify</a></li>
+                <li class="rodape-mapa-item">Livros</li>
+                <li class="rodape-mapa-item">Jogos</li>
+                <li class="rodape-mapa-item">Filmes</li>
+            </ul>
+           </div>
+        </footer>
     
 </body>
 </html>
