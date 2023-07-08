@@ -12,6 +12,7 @@
   --purple-800: #5e0ec0;
   --purple-900: #520ea4;
   --purple-950: #31066f;
+  --roxo-dark: #8257e6;
   --branco: #f0f0f0;
   --dark: #232c35;
   --fonte-principal: "Poppins";
@@ -167,6 +168,10 @@ body.dark{
   align-items: center;
   justify-content: center;
   gap: 2em;
+}
+
+.rodape-titulo{
+  margin-top: 1em;
 }
 
 .rodape-mapa-lista {

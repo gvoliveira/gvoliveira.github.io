@@ -26,6 +26,11 @@
   width: 40px;
   transform: scale(1.1);
 }
+
+.dark .rotulo{
+    background-color: var(--roxo-dark);
+}
+
 .rotulo .ball {
   background-color: var(--branco);
   border-radius: 50%;
