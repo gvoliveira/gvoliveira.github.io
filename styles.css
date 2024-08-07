@@ -45,7 +45,6 @@ body.dark{
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 300px;
 }
 
 .quem-sou {
@@ -110,6 +109,7 @@ body.dark{
   width: 80vw;
   font-family: var(--fonte-principal);
   font-weight: 300;
+  min-height: 400px;
 }
 
 .descricao-texto-destaque{
@@ -126,8 +126,7 @@ body.dark{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  position: absolute;
-  bottom: 0;
+  
   width: 100%;
   padding: 2em 0;
   -webkit-box-shadow: 0px -4px 5px 0px rgba(0, 0, 0, 0.26);
