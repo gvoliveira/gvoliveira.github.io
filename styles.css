@@ -28,6 +28,8 @@ body {
   background: var(--branco);
   transform: background 0.2s linear;
   transition: 1s;
+  display: flex;
+  flex-direction: column;
 }
 
 body.dark{
