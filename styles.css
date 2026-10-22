@@ -112,7 +112,7 @@ body.dark{
   min-height: 400px;
 }
 
-.descricao-texto-destaque{
+.descricao-texto-destaque, .descricao-texto-destaque a{
   color: var(--purple-800);
 }
 
